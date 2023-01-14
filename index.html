@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Supper delicious Burger in town!</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <!-- start navbar -->
+    <header class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand fs-3 fw-bold text-white">Foodie<span>.</span></a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#About">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#Shop">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#Testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#Blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#Contact-Us">Contact Us</a>
+                </li>
+            </ul>
+            <div class="btn-group-nav d-flex">
+                <div class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-magnifying-glass me-4 mt-2 fs-5 text-white "></i>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <button type="button" class="iconClose ms-auto" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark times fs-2"></i>
+                        </button>
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <input type="text" id="myInput" placeholder="Type Keyword Here...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Reservation text-white rounded">Reservation</div>
+            </div>
+            <div class="parentBar">
+                <i class="iconBar fa-solid fa-bars-staggered fs-3 text-white d-none"></i>
+            </div>
+        </div>
+    </header>
+    <!-- end navbar -->
+
+
+
+    <!-- start landing page -->
+    <div class="banner" id="Home">
+        <div class="container">
+            <div class="banner-content">
+                <h4>eat sleep and</h4>
+                <h1 class="text-capitalize fw-bold mt-4">supper delicious <span class="d-block">burger in town!</span></h1>
+                <p class="fs-4 mt-3">Food is any substance consumed to provide nutritional support for an organism.</p>
+                <div class="btn text-white text-capitalize mt-5">book a table</div>
+            </div>
+            <div class="banner-img">
+                <img src="./imgs/langing-page/landing-banner-bg.png" class="banner-bg" aria-hidden="true" alt="">
+                <img src="./imgs/langing-page/burgar-banner.png" class="banner-bg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end landing page -->
+
+
+
+    <!-- start section-divider -->
+    <div class="section-divider">
+        <div class="container">
+            <ul class="promo-list list-unstyled has-scrollbar">
+                <li class="promo-item">
+                    <div class="promo-card text-center p-5">
+                        <i class="fa-solid fa-pizza-slice mb-4 promo-icon"></i>
+                        <h3 class="text-capitalize fw-bold mb-3">maxican pizza</h3>
+                        <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                        <img src="imgs/promo/promo-1.png" alt="">
+                    </div>
+                </li>
+                <li class="promo-item">
+                    <div class="promo-card text-center p-5">
+                        <i class="fa-solid fa-martini-glass-citrus mb-4 promo-icon"></i>
+                        <h3 class="text-capitalize fw-bold mb-3">soft drinks</h3>
+                        <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                        <img src="imgs/promo/promo-2.png" alt="">
+                    </div>
+                </li>
+                <li class="promo-item">
+                    <div class="promo-card text-center p-5">
+                        <i class="fa-solid fa-pizza-slice mb-4 promo-icon"></i>
+                        <h3 class="text-capitalize fw-bold mb-3">french fry</h3>
+                        <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                        <img src="imgs/promo/promo-3.png" alt="">
+                    </div>
+                </li>
+                <li class="promo-item">
+                    <div class="promo-card text-center p-5">
+                        <i class="fa-solid fa-burger mb-4 promo-icon"></i>
+                        <h3 class="text-capitalize fw-bold mb-3">burger kingo</h3>
+                        <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                        <img src="imgs/promo/promo-4.png" alt="">
+                    </div>
+                </li>
+                <li class="promo-item">
+                    <div class="promo-card text-center p-5">
+                        <i class="fa-solid fa-drumstick-bite mb-4 promo-icon"></i>
+                        <h3 class="text-capitalize fw-bold mb-3">chicken masala</h3>
+                        <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                        <img src="imgs/promo/promo-5.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end section-divider -->
+
+
+    <!-- start about-section -->
+    <div class="about" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="about-banner">
+                        <img src="imgs/about/about-banner.png" alt="">
+                        <img src="imgs/shape/sale-shape-red.png" class="sale-shape-red" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="about-content">
+                        <h1 class="text-capitalize fw-bold">caferio, burgers, and<br>best pizzas <span>in town!</span></h1>
+                        <p>The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+                            the Jurchen
+                            invasion of the 1120s, while it is also known that many restaurants were run by families.
+                        </p>
+                        <ul class="list-unstyled mt-4">
+                            <li class="d-flex">
+                                <i class="fa-solid fa-circle-check fs-4 pe-2"></i>
+                                <p class="text-dark fs-5 fw-bold">delicious & healthy foods</p>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fa-solid fa-circle-check fs-4 pe-2"></i>
+                                <p class="text-dark fs-5 fw-bold">spacific family and kids zone</p>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fa-solid fa-circle-check fs-4 pe-2"></i>
+                                <p class="text-dark fs-5 fw-bold">music & other facilities</p>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fa-solid fa-circle-check fs-4 pe-2"></i>
+                                <p class="text-dark fs-5 fw-bold">fastest food home delivery</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about-section -->
+
+
+
+    <!-- start shop-section -->
+    <div class="shop" id="Shop">
+        <div class="container">
+            <div class="title-shop text-center">
+                <p class="text-capitalize fw-bold fs-5">popular dishes</p>
+                <h1 class="text-capitalize fw-bold">our delicious <span>foods</span></h1>
+                <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+                <ul class="into-list list-unstyled mt-5">
+                    <button type="button" data-filter=".all-cards" class="btn text-capitalize mx-1 px-4 btn-white active">all</button>
+                    <button type="button" data-filter=".pizza-cards" class="btn text-capitalize mx-1 px-4 btn-white">pizza</button>
+                    <button type="button" data-filter=".burger-cards" class="btn text-capitalize mx-1 px-4 btn-white">burger</button>
+                    <button type="button" data-filter=".drinks-cards" class="btn text-capitalize mx-1 px-4 btn-white">drinks</button>
+                    <button type="button" data-filter=".sandwich-cards" class="btn text-capitalize mx-1 px-4 btn-white">sandwich</button>
+                </ul>
+            </div>
+
+            <div class="menu-cards">
+                <div class="all-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">fried chicken unlimited</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Noddles</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">burger king whopper</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$29.00</data>
+                                        <del class="del" value="69.00">$39.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Pizzas</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">white castle pizzas</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$59.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Burrito</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">bell burrito supreme</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Nuggets</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">kung pao chicken BBQ</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">wendy's chicken</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/drink-mango.jpg" class="card-img-top rounded-circle" style="width: 250px; height: 200px;" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">mango juice</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$20.00</data>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/drink-orange.jpg" class="card-img-top rounded-circle" style="width: 250px; height: 200px;" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">orange juice</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$20.00</data>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pizza-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">fried chicken unlimited</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Noddles</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">burger king whopper</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$29.00</data>
+                                        <del class="del" value="69.00">$39.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="burger-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Pizzas</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">white castle pizzas</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$59.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Burrito</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">bell burrito supreme</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                    </div>
+                </div></div>
+                <div class="drinks-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/drink-mango.jpg" class="card-img-top rounded-circle" style="width: 250px; height: 200px;" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">mango juice</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$20.00</data>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/drink-orange.jpg" class="card-img-top rounded-circle" style="width: 250px; height: 200px;" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">orange juice</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$20.00</data>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sandwich-cards">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Nuggets</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">kung pao chicken BBQ</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card mt-3 px-3 py-4">
+                                <img src="imgs/menu/allMenu/food-menu-6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-wrapper d-flex">
+                                        <p>Chicken</p>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title text-capitalize">wendy's chicken</h5>
+                                    <div class="price-wrapper d-flex justify-content-center">
+                                        <p class="price-text fs-5">Price:</p>
+                                        <data class="price ms-2">$49.00</data>
+                                        <del class="del" value="69.00">$69.00</del>
+                                    </div>
+                                    <a href="#" class="btn text-capitalize fw-bold">order now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end shop-section -->
+
+    <!-- start quality-shop-section -->
+    <div class="quality-shop-section">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-6 col-sm-12">
+                    <div class="quality-shop-content text-white">
+                        <h1 class="text-capitalize fw-bold">
+                            the foodie have excellent of <span>quality burgers!</span>
+                        </h1>
+                        <p class="fs-5 mt-4">
+                            The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.
+                        </p>
+                        <button class="btn">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="quality-shop-img">
+                        <img src="imgs/cta-banner.png" alt="">
+                        <img src="imgs/shape/sale-shape.png" class="sale-shape-red" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end quality-shop-section -->
+
+
+
+
+
+    <!-- start section-eight-time -->
+    <div class="section-eight-time">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="section-eight-time-content">
+                        <h1 class="text-capitalize fw-bold">a moments of delivered on <span>right time</span> & placs</h1>
+                        <p class="fs-5 mt-4">The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.</p>
+                        <button class="btn">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="section-eight-time-benner">
+                        <img src="imgs/delivery-banner-bg.png" alt="">
+                        <img src="imgs/delivery-boy.svg" class="delivery-boy" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section-eight-time -->
+
+
+
+
+    <!-- start banner-shop -->
+    <div class="banner-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="left-banner text-white">
+                        <h4 class="text-capitalize fw-bold fs-3">50% off now!</h4>
+                        <h2 class="text-capitalize fw-bold">discount for delicious tasty burgers!</h2>
+                        <p>Sale off 50% only this week</p>
+                        <button class="btn text-capitalize text-white">order now</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="right-banner1 text-white">
+                                <h4 class="text-capitalize fw-bold fs-3">delicious pizza</h4>
+                                <p>50% off Now</p>
+                                <button class="btn text-capitalize text-white">order now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="right-banner2 text-white">
+                                <h4 class="text-capitalize fw-bold fs-3">american burgers</h4>
+                                <p>50% off Now</p>
+                                <button class="btn text-capitalize text-white">order now</button>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="right-banner3 text-white">
+                                <h4 class="text-capitalize fw-bold fs-3">tasty buzzed pizza</h4>
+                                <p>Sale off 50% only this week</p>
+                                <button class="btn text-capitalize text-white">order now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end banner-shop -->
+
+
+
+
+    <!-- start testimonials -->
+    <div class="testimonials" id="Testimonials">
+        <div class="container">
+            <div class="title-testimonials text-center">
+                <p class="text-capitalize fw-bold fs-5">testimonials</p>
+                <h1 class="text-capitalize fw-bold">our customers <span>reviews</span></h1>
+                <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+            </div>
+            <div class="testimonials-person mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 bg-white p-4">
+                        <div class="avatar d-flex">
+                            <img src="imgs/testimonials/avatar-1.jpg" class="rounded-circle" alt="">
+                            <div class="name-avatar ms-3 mt-3">
+                                <h3 class="text-capitalize fw-bold fs-5">robert william</h3>
+                                <p>CEO Kingfisher</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">"I would be lost without restaurant. I would like to personally thank you for your outstanding product."</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 bg-white p-4">
+                        <div class="avatar d-flex">
+                            <img src="imgs/testimonials/avatar-2.jpg" class="rounded-circle" alt="">
+                            <div class="name-avatar ms-3 mt-3">
+                                <h3 class="text-capitalize fw-bold fs-5">thomas josef</h3>
+                                <p>CEO Getforce</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">"I would be lost without restaurant. I would like to personally thank you for your outstanding product."</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 bg-white p-4">
+                        <div class="avatar d-flex">
+                            <img src="imgs/testimonials/avatar-3.jpg" class="rounded-circle" alt="">
+                            <div class="name-avatar ms-3 mt-3">
+                                <h3 class="text-capitalize fw-bold fs-5">charles richard</h3>
+                                <p>CEO Angela</p>
+                            </div>
+                        </div>
+                        <p class="mt-3">"I would be lost without restaurant. I would like to personally thank you for your outstanding product."</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonials -->
+
+
+
+
+    <!-- start blog-section -->
+    <div class="blog" id="Blog">
+        <div class="container">
+            <div class="title-blog text-center">
+                <p class="text-capitalize fw-bold fs-5">latest blog posts</p>
+                <h1 class="text-capitalize fw-bold">this is all about <span>foods</span></h1>
+                <p>Food is any substance consumed to provide nutritional support for an organism.</p>
+            </div>
+            <div class="cardBlog mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-md-12 width">
+                        <div class="card">
+                            <div class="card-banner">
+                                <img src="imgs/blog/blog-1.jpg" class="card-img-top" alt="...">
+                                <div class="badge fs-5">Pizza</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-wrapper d-flex">
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jan 01 2022</p>
+                                    </div>
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-person"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jonathan Smith</p>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-capitalize fw-bold">what do you think about cheese pizza recipes?</h4>
+                                <p class="card-text">
+                                    Financial experts support or help you to to find out which way you can raise your funds more...
+                                </p>
+                                <a href="#" class="btn d-flex">
+                                    <p class="text-capitalize fw-bold">read more</p>
+                                    <i class="fa-solid fa-arrow-right mt-1 ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-md-12 width">
+                        <div class="card">
+                            <div class="card-banner">
+                                <img src="imgs/blog/blog-2.jpg" class="card-img-top" alt="...">
+                                <div class="badge fs-5">Burger</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-wrapper d-flex">
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jan 01 2022</p>
+                                    </div>
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-person"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jonathan Smith</p>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-capitalize fw-bold">making chicken strips with new delicious ingridents.</h4>
+                                <p class="card-text">
+                                    Financial experts support or help you to to find out which way you can raise your funds more...
+                                </p>
+                                <a href="#" class="btn d-flex">
+                                    <p class="text-capitalize fw-bold">read more</p>
+                                    <i class="fa-solid fa-arrow-right mt-1 ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-md-12 width">
+                        <div class="card">
+                            <div class="card-banner">
+                                <img src="imgs/blog/blog-3.jpg" class="card-img-top" alt="...">
+                                <div class="badge fs-5">Chicken</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-wrapper d-flex">
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jan 01 2022</p>
+                                    </div>
+                                    <div class="card-link d-flex">
+                                        <i class="fa-solid fa-person"></i>
+                                        <p class="card-link-info ms-2 text-uppercase">Jonathan Smith</p>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-capitalize fw-bold">innovative hot chessyraw pasta make creator fact.</h4>
+                                <p class="card-text">
+                                    Financial experts support or help you to to find out which way you can raise your funds more...
+                                </p>
+                                <a href="#" class="btn d-flex">
+                                    <p class="text-capitalize fw-bold">read more</p>
+                                    <i class="fa-solid fa-arrow-right mt-1 ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end blog-section -->
+
+
+
+
+    <!-- start footer section -->
+    <footer id="Contact-Us">
+        <div class="footer-top">
+            <div class="container d-flex">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-brand">
+                        <p class="logo fs-2 fw-bold mb-1">Foodie<span>.</span></p>
+                        <p class="footer-text mb-4">
+                            Financial experts support or help you to to find out which way you can raise your funds more.
+                        </p>
+                        <p>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="contact mt-3">
+                        <p class="fs-4 fw-bold mb-1 text-capitalize mb-4">contact info</p>
+                        <div>
+                            <p class="list-item">+20 01099132966</p>
+                            <p class="list-item">marwansalem164@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <form>
+                        <p class="footer-list-title fs-4 fw-bold">Book a Table</p>
+                        <div class="input-wrapper">
+                            <input type="text" name="full_name" required placeholder="Your Name" aria-label="Your Name"
+                            class="input-field mb-2">
+                            <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+                            class="input-field mb-2">
+                        </div>
+                        <div class="input-wrapper">
+                            <select name="total_person" aria-label="Total person" class="input-field mb-2">
+                                <option value="person">Person</option>
+                                <option value="2 person">2 Person</option>
+                                <option value="3 person">3 Person</option>
+                                <option value="4 person">4 Person</option>
+                                <option value="5 person">5 Person</option>
+                            </select>
+                            <input type="date" name="booking_date" aria-label="Reservation date" class="input-field input-field4 mb-2">
+                        </div>
+                        <textarea name="message" required placeholder="Message" aria-label="Message" class="input-field input-field5  mb-2"></textarea>
+                        <button type="submit" class="btn">Book a Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="fw-bold fs-5 text-capitalize text-center pt-4">
+                    &copy; 2022 copy right by MuhammedMostafaSalem
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
